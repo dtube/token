@@ -1,18 +1,1245 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=600, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>token.d.tube</title>
-    <style>
-        body {
-            background-color: #223154;
-            color: #E6E6E6;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="DTUBE DTC Token">
+  <meta name="author" content="@dtube">
+  <link rel="icon" href="img/dtubefavicon.png" />
+  <title>DTUBE DTC Token</title>
+  <!-- Bootstrap core -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <!-- Styles -->
+  <link href="css/dtube.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+
+  <!-- Script -->
+  <script src="https://hcaptcha.com/1/api.js" async defer></script>
 </head>
-<body>
-    <h1>Coming Soon</h1>
+
+<body id="page-top">
+  <!-- Header -->
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-small" id="mainNav">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">A new model: the social blockchain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#trust">Built on trust</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#moderation">Community moderation</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#adfree">Ad-free</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#keyplayer">For creators and curators</a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#oldnew">Old vs. new</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#distribution">Token model</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#tokenlaunch">Token generation event</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Press & contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">
+          <img class="top-logo" src="img/kit/Logo_White.svg">
+          <h1 class="title m-0">
+              <p>  We make social media  <span id="spin"></span></p>
+          </h1>
+          <!-- <div class="subtitle">(+trustworthy, fair, empowering, uncensorable, immutable)</div> -->
+          <div class="row justify-content-md-center">
+            <div class="col-md-auto mt-3">
+              <a class="btnread nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+            </div>
+            <div class="col-md-auto mt-3">
+              <a class="btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+            </div>
+          </div>
+        </div>
+        <a class="nav-link js-scroll-trigger next" href="#about">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <div class="barmodel">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+      </a>
+      <div>A NEW MODEL</div>
+      <div class="right-model">
+        <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+        <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar sidenav navbar-expand-lg navbar-dark" id="mainNav">
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">A new model: the social blockchain</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#trust">Built on trust</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#moderation">Community moderation</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#adfree">Ad-free</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#keyplayer">For creators and curators</a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#oldnew">Old vs. new</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#distribution">Token model</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#tokenlaunch">Token generation event</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Press & contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="bg-light">
+    <div class="row middle container">
+      <div class="col-lg-12 text-center dtube-text">
+        <strong>Social media platforms can’t be trusted anymore. </strong>
+        Their inability to <strong>moderate content</strong> efficiently, <strong>protect user privacy</strong> and
+        operate with transparency broke the trust with users.
+        The <strong>targeted advertising model</strong> requires to ever increase <strong>personal data collection, ad
+          pressure</strong> and promote content <strong>virality over quality</strong> through suggestion algorithms.
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#model">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Model -->
+  <section id="model">
+    <div class="row middle container">
+      <div class="row">
+        <div class="col-lg-7">
+          <h2 class="section-heading text-uppercase">A new model: </h2>
+          <h3 class="section-subheading text-muted mb-1"> the social blockchain</h3>
+          By replacing advertising with the social blockchain concept, the DTube Chain offers a new model based on
+          transparency, user empowerment and fairness. As experts in cryptography and decentralized web, we created
+          DTube a new video sharing platform that reward each user’s social contributions with a utility token: the
+          DTube Coin.
+          <div class="quote" >
+            DTube is ad-free, 100% powered by the community and 90% of the value created goes to its users.
+          </div>
+        </div>
+        <div class="col-lg-4 ml-5 mt-5">
+          <img src="img/Export/Illus_1.png" class="fadeIn skrollable skrollable-between" data-900-top="opacity: 0.2;top: 96px;transform:translateY(190px) scale(0.5);"
+          data-400-top="opacity: 1;bottom: 61px;transform:translateY(0px) scale(1);" >
+        </div>
+        <a class="nav-link js-scroll-trigger next" href="#trust">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+  </section>
+
+  <div class="barmodel">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>BUILT ON TRUST</div>
+        <div class="right-model">
+          <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+          <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Trust -->
+  <section id="trust" class="bg-light">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-center">Dtube is <span class="section-subheading ">already a hit</span></h2>
+        <h4 class="section-sub text-mute text-uppercase">in 20 months</h4>
+      </div>
+    </div>
+    <div class="row middle container">
+      <div class="row eight-cols mt-5 text-center">
+        <div class="col-sm-3 mt-5 wow bounceInUp" data-wow-delay="0s" data-wow-duration="2s">
+            <img class="imgtrust"   src="img/Export/Illus_2.png" >
+            <h5 class="p-3 mx-4">1 video shared every 3 minute</h5>
+        </div>
+        <div class="col-sm-3 mt-5 wow bounceInUp" data-wow-delay="0.5s" data-wow-duration="1.5s">
+            <img class="imgtrust"   src="img/Export/Illus_3.png" >
+            <h5 class="p-3 mx-4">189,000 registered creators and curators</h5>
+        </div>
+        <div class="col-sm-3 mt-5 wow bounceInUp" data-wow-delay="1s" data-wow-duration="1s">
+            <img class="imgtrust"   src="img/Export/Illus_4.png" >
+            <h5 class="p-3 mx-4">2.1 Million Monthly Unique Visitors</h5>
+        </div>
+        <div class="col-sm-3 mt-5 wow bounceInUp" data-wow-delay="1.3s" data-wow-duration="1.2s">
+            <img class="imgtrust"   src="img/Export/Illus_5.png">
+            <h5 class="p-3 mx-4">1.1 Million distributed to the community</h5>
+        </div>
+        <div class="mt-5 container text-center p-0">
+            <a class="btnsecondary" href="https://d.tube" target="_blank">Become a DTuber</a>
+            <a class="btnvisit" href="https://d.tube" target="_blank">Visit Dtube</a>
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#principle">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Principle -->
+  <section id="principle">
+    <div class="row middle container">
+      <div class="row">
+        <div class="col-lg-7">
+          <h2 class="section-heading text-uppercase">Principle of the </h2>
+          <h3 class="section-subheading text-muted mb-3"> DTube Chain </h3>
+          Users on DTube (DTubers) are <strong> rewarded with DTube Coins</strong> each time they publish an original
+          content or share a video from the web but also for voting, tagging and commenting a video.
+        </div>
+        <div class="col-lg-4 ml-5 mt-5">
+          <img src="img/Export/Illus_6.png">
+        </div>
+        <a class="nav-link js-scroll-trigger next" href="#moderation">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="barmodel">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>COMMUNITY POWERED</div>
+        <div class="right-model">
+          <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+          <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Moderation -->
+  <section id="moderation" class="bg-light">
+    <div class="row middle container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="img/Export/Illus_7.png">
+        </div>
+        <div class="col-lg-6 text-center">
+          <h2 class="section-heading text-right">A new ecosystem built on Trust, <span
+              class="section-subheading ">transparency and immutability.</span></h2>
+          <div class="row">
+            <div class="col-lg-6 tableko">
+              <img class="mini" src="img/Export/table_ko.png">
+              <div>
+                Social media private conglomerates offer no transparency on algorithmic content distribution, revenue
+                sharing and use of personal data.
+              </div>
+            </div>
+            <div class="col-lg-6 tableok">
+              <img class="mini" src="img/Export/table_ok.png">
+              <div>
+                DTube and the DTube Chain are built on cryptography, transparency, open source and decentralized
+                technologies to re-create trust with users.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#adfree">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <div class="barmodel">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>AD-FREE</div>
+        <div class="right-model">
+          <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+          <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Adfree -->
+  <section id="adfree">
+    <div class="row middle container">
+      <div class="row">
+        <div class="col-lg-7 text-center">
+          <h2 class="section-heading text-right">A platform <span class="section-subheading ">100% ad-free.</span></h2>
+          <div class="row mt-5">
+            <div class="col-lg-6 tableko">
+              <img class="mini" src="img/Export/table_ko.png">
+              <div>
+                Social media platforms need to collect large amounts of personal data in order to offer targeted
+                advertising services. Ad pressure never stopped increasing and gets more and more intrusive. </div>
+            </div>
+            <div class="col-lg-6 tableok">
+              <img class="mini" src="img/Export/table_ok.png">
+              <div>
+                Thanks to its tokenized business model, DTube is 100% ad-free and do not collect any personal data from
+                its users. </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 illus8 mt-5">
+          <img src="img/Export/Illus_8_base.png" class="abs fadeIn skrollable skrollable-between" 
+          data-900-top="opacity: 1;transform:translateY(-400px) translateX(0px) scale(0.5);"
+          data-650-top="opacity: 1;transform:translateY(0px) translateX(0px) scale(1);">
+          <img src="img/Export/Illus_8_mega.png" class="abs fadeIn skrollable skrollable-between" 
+          data-800-top="opacity: 0.2;transform:translateY(400px) translateX(0px) scale(0.5);"
+          data-400-top="opacity: 1;transform:translateY(0px) translateX(0px) scale(1);">
+          <img src="img/Export/Illus_8_wave.png" class="abs fadeIn skrollable skrollable-between" 
+          data-500-top="opacity: 0.2;transform:translateY(0px) translateX(300px) scale(0.5);"
+          data-300-top="opacity: 1;transform:translateY(0px) translateX(0px) scale(1);">
+          <img src="img/Export/Illus_8_cross.png" class="abs fadeIn skrollable skrollable-between" 
+
+          data-400-top="opacity: 0;transform:translateY(0px) translateX(0px) scale(1);"
+          data-250-top="opacity: 1;transform:translateY(0px) translateX(0px) scale(1);"
+          >
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#tokenmodel">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+
+  <!-- Token model -->
+  <section id="tokenmodel" class="bg-light">
+    <div class="row middle container">
+      <div class="row">
+        <div class="col-lg-4 ml-5 mt-5  mb-5">
+          <img src="img/Export/Illus_9.png" class="wow bounceInLeft">
+        </div>
+        <div class="col-lg-7">
+          <h2 class="section-heading text-uppercase text-right">Content moderation and curation <span
+              class="section-subheading ">100% operated by DTubers</span> </h2>
+          To protect advertiser’s brand images and increase the advertising catalogue, automated suggestion algorithms
+          favor virality in spite of content quality and diversity.
+          Automation also proved inefficient in moderating inappropriate content.
+          <p></p>
+          DTube offers the best videos of the web 100% curated by DTuber’s posts, upvotes and tags while moderation is
+          operated by million of DTuber’s downvotes.
+        </div>
+        <a class="nav-link js-scroll-trigger next" href="#keyplayer">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="barmodel">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>CREATORS & CURATORS</div>
+        <div class="right-model">
+          <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+          <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- keyplayer -->
+  <section id="keyplayer">
+    <div class="row middle container">
+      <div class="row">
+        <div class="col-lg-7">
+          <h2 class="section-heading text-uppercase">A new key player: </h2>
+          <h3 class="section-subheading text-muted mb-3"> the curator </h3>
+          On DTube, content curators use their skills to reveal the best videos of the web by posting a link of a
+          third-party video website and by voting and tagging the most relevant video posts on DTube.
+          </br>
+          By playing this curation game, curators try to grow their influence power by earning DTC tokens through their
+          posts, votes and tags.
+          <div class="quote">
+            This mechanism rewards influencers in a new way that hasn’t existed before.
+          </div>
+        </div>
+        <div class="col-lg-4 ml-5 mt-5">
+          <img src="img/Export/Illus_18.png" class="wow bounceInRight">
+        </div>
+        <a class="nav-link js-scroll-trigger next" href="#protecting">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Protecting -->
+  <section id="protecting" class="bg-light">
+    <div class="row middle container">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-4">
+          <img src="img/Export/Illus_19.png" class="wow bounceInLeft">
+        </div>
+        <div class="col-lg-6 text-right">
+          <h2 class="section-heading text-right">Protecting <span class="section-subheading ">creator’s
+              creativity</span></h2>
+          On DTube, creators post their original creations to a censorship-resistant decentralized infrastructure and
+          moderation is operated by millions of users who block inappropriate content and obvious copyright
+          infringement.
+          <div class="row mt-5 text-left">
+            <div class="col-12 mb-3 align-self-center">
+              <img width="20px" src="img/Export/Illus_20.png">
+              <strong>No demonetization or abusive censorship</strong>
+            </div>
+            <div class="col-12 mb-3 align-self-center">
+              <img width="20px" src="img/Export/Illus_21.png">
+              <strong>Direct support from fans votes and donations, without monetization threshold</strong>
+            </div>
+            <div class="col-12 mb-3 align-self-center">
+              <img width="20px" src="img/Export/Illus_22.png">
+              <strong>DTube sponsorship program for Original Content videos</strong>
+            </div>
+            <div class="col-12 mb-3 align-self-center">
+              <img width="20px" src="img/Export/Illus_23.png">
+              <strong>90% of all revenues go to DTubers</strong>
+            </div>
+            <div class="col-12 mb-3 align-self-center">
+              <img width="20px" src="img/Export/Illus_24.png">
+              <strong>Premium access content (2020)</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#oldnew">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <div class="barmodel">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>OLD VS. NEW</div>
+        <div class="right-model">
+          <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+          <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Token generation -->
+  <section id="oldnew">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-center">The old vs. <span class="section-subheading ">the new</span></h2>
+      </div>
+    </div>
+    <div class="row middle container mt-5 large-screen">
+      <div class="row mt-5">
+        <div class="col-lg-4 tableok text-right">
+          </br> </br> </br> </br>
+          <strong>
+            Business Model
+          </strong>
+          <p class="bdbot"></p>
+          <strong>
+            Trust
+          </strong>
+          <p class="bdbot"></p>
+          <strong>
+            Moderation
+          </strong>
+          </br> </br> </br> </br></br>
+          <strong>
+            Ads
+          </strong>
+          <p class="bdbot"></p>
+          <strong>
+            Privacy
+          </strong>
+        </div>
+        <div class="col-lg-4 tableko">
+          <strong>
+            Classic Social Medias
+          </strong>
+          <img class="mb-4 d-block" src="img/Export/classic_social_media.png">
+          <strong class="mt-4 tablabel">
+            Targeted advertising
+          </strong>
+          <p class="border-bottom bdleft"></p>
+          <strong>
+            Trust a private conglomerate
+          </strong>
+          <p class="border-bottom bdleft"></p>
+          <strong>
+            <div> Automated</div>
+            <div> Favors virality and showed inefficient in moderating inappropriate content</div>
+            </br>
+          </strong>
+          <p class="border-bottom bdleft"></p>
+          <strong>
+            Intrusive ad pressure
+          </strong>
+          <p class="border-bottom bdleft"></p>
+          <strong>
+            Massive collection of personal data
+          </strong>
+        </div>
+        <div class="col-lg-4 tableok">
+          </br>
+          <img class="mb-4 d-block" height="47" src="img/kit/Logo_White.svg">
+          <strong class="mt-4 tablabel">
+            Tokenized audience exposure
+          </strong>
+          <p class="border-bottom bdright"></p>
+          <strong>
+            Trust maths and cryptography
+          </strong>
+          <p class="border-bottom bdright"></p>
+          <strong>
+
+            <div> Community powered</div>
+            <div> Content’s popularity (upvotes),
+              moderation (downvotes) and
+              classification (tags) is determined</div>
+          </strong>
+          <p class="border-bottom bdright"></p>
+          <strong>
+            No ads
+          </strong>
+          <p class="border-bottom bdright"></p>
+          <strong>
+            No collection of personal data
+          </strong>
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#distribution">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+    <div class="row middle container mt-5 small-screen">
+      <div class="row p-0 m-0">
+        <div class="col-4 tableok" style="padding: 40px 0px;">
+          </br> </br>
+          <p class="bdbot"></p>
+          <strong>
+            Business Model
+          </strong>
+          <p class="bdbot"></p>
+          <strong>
+            Trust
+          </strong>
+          <p class="bdbot"></p>
+          <strong> </br>
+            Moderation
+          </strong>
+          </br> </br> </br> </br></br>
+          <strong> </br>
+            Ads
+          </strong>
+          <p class="bdbot"></p>
+          <strong>
+            Privacy
+          </strong>
+        </div>
+        <div class="col-8 tableko" style="padding: 40px 40px 40px 10px;">
+          <strong>
+            Classic Social Medias
+          </strong>
+          <img class="mb-4 d-block" src="img/Export/classic_social_media.png">
+          <strong class="mt-4 tablabel">
+            Targeted advertising
+          </strong>
+          <p class="border-bottom bdleft"></p>
+          <strong>
+            Trust a private conglomerate
+          </strong>
+          <p class="border-bottom bdleft"></p>
+          <strong>
+            <div> Automated</div>
+            <div> Favors virality and showed inefficient in moderating inappropriate content</div>
+            </br>
+          </strong>
+          <p class="border-bottom bdleft"></p>
+          <strong>
+            Intrusive ad pressure
+          </strong>
+          <p class="border-bottom bdleft"></p>
+          <strong>
+            Massive collection of personal data
+          </strong>
+        </div>
+        <div class="col-4 tableok" style="padding: 40px 0px;">
+          </br> </br> </br> </br>
+          <strong>
+            Business Model
+          </strong>
+          <p class="bdbot"></p>
+          <strong> </br>
+            Trust
+          </strong>
+          <p class="bdbot"></p>
+          <strong> </br> </br>
+            Moderation
+          </strong>
+          </br> </br> </br> </br></br>
+          <strong> </br>
+            Ads
+          </strong>
+          <p class="bdbot"></p>
+          <strong>
+            Privacy
+          </strong>
+        </div>
+        <div class="col-8 tableok">
+          </br>
+          <img class="mb-4 d-block" height="47" src="img/kit/Logo_White.svg">
+          <strong class="mt-4 tablabel">
+            Tokenized audience exposure
+          </strong>
+          <p class="border-bottom bdright"></p>
+          <strong>
+            Trust maths and cryptography
+          </strong>
+          <p class="border-bottom bdright"></p>
+          <strong>
+
+            <div> Community powered</div>
+            <div> Content’s popularity (upvotes),
+              moderation (downvotes) and
+              classification (tags) is determined</div>
+          </strong>
+          <p class="border-bottom bdright"></p>
+          <strong>
+            No ads
+          </strong>
+          <p class="border-bottom bdright"></p>
+          <strong>
+            No collection of personal data
+          </strong>
+        </div>
+      </div>
+      <a class="row nav-link js-scroll-trigger next" href="#distribution">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  
+  <div class="barmodel">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+        </a>
+        <div>TOKEN MODEL</div>
+        <div class="right-model">
+          <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+          <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+        </div>
+      </div>
+    </div>
+
+   <!-- distribution -->
+   <section id="distribution" class="bg-light">
+      <div class="row middle container small-screen">
+        <div class="row">
+          <h2 class="section-heading  text-center">DTube Coin distribution: <span class="section-subheading ">how it
+              works</span></h2>
+        </div>
+        <div class=" col-md-auto p-5"> <img height="auto" width="auto" src="img/Export/Illus_10.png">
+          <div class="border-top"><strong>The DTube Chain distributes Voting Power (VP) to every DTuber at a rate of +1
+              per DTC per hour.</strong></div>
+        </div>
+        <div class=" col-md-auto p-5"> <img height="auto" width="auto" src="img/Export/Illus_11.png">
+          <div class="border-top"> <strong>DTubers spend their VP each time they post, vote, comment or tag a
+              content.</strong></div>
+        </div>
+        <div class=" col-md-auto p-5"> <img height="auto" width="auto" src="img/Export/Illus_12.png">
+          <div class="border-top"> <strong>In real time, the blockchain algorithm generates and distributes new DTC to
+              users to reward them according to content popularity and freshness.</strong></div>
+        </div>
+        <div></div>
+        <a class="nav-link js-scroll-trigger next" href="#utilitytoken">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+      <div class="row middle container large-screen">
+        <h2 class="container section-heading  text-center">DTube Coin distribution: <span class="section-subheading ">how
+            it
+            works</span></h2>
+        <div class="col-6 col-md-4 p-5 wow fadeInUp"  data-wow-delay="0s" data-wow-duration="2s"  data-wow-delay="0s" data-wow-duration="2s"> <img height="auto" width="auto" src="img/Export/Illus_10.png">
+          <div class="border-top"><strong>The DTube Chain distributes Voting Power (VP) to every DTuber at a rate of +1
+              per DTC per hour.</strong></div>
+        </div>
+        <div class="col-6 col-md-4 p-5 wow fadeInUp"  data-wow-delay="2s" data-wow-duration="2s"  data-wow-delay="0s" data-wow-duration="2s"> <img height="auto" width="auto" src="img/Export/Illus_11.png">
+          <div class="border-top"> <strong>DTubers spend their VP each time they post, vote, comment or tag a
+              content.</strong></div>
+        </div>
+        <div class="col-6 col-md-4 p-5 wow fadeInUp"  data-wow-delay="4s" data-wow-duration="2s"  data-wow-delay="0s" data-wow-duration="2s"> <img height="auto" width="auto" src="img/Export/Illus_12.png">
+          <div class="border-top"> <strong>In real time, the blockchain algorithm generates and distributes new DTC to
+              users to reward them according to content popularity and freshness.</strong></div>
+        </div>
+        <div></div>
+        <a class="nav-link js-scroll-trigger next" href="#utilitytoken">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+    </section>
+
+
+  <!-- utilitytoken -->
+  <section id="utilitytoken">
+    <h2 class="section-heading  text-center"> The DTube Coin: <span class="section-subheading ">a utility token for
+        video</span></h2>
+    <div class="row middle container justify-content-md-center mt-5">
+      <div class="row">
+        <div class="col-6 card align-self-center ">
+          <div class="row no-gutters wow flipInY">
+            <div class="col-md-2">
+              <img src="img/Export/Illus_13.png"  >
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <strong>For players</strong><span class="text-muted">: hold your DTC to post, vote, comment, tag videos
+                  and earn rewards</span>
+              </div>
+            </div>
+          </div>
+          <div class="row no-gutters wow flipInY" data-wow-delay="2s">
+            <div class="col-md-2">
+              <img src="img/Export/Illus_15.png">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <strong>For fans</strong><span class="text-muted"> (live): Support your favorite creators and curators
+                  with the “donate DTC” feature</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 card align-self-center">
+          <div class="row no-gutters wow flipInY" data-wow-delay="1s">
+            <div class="col-md-2">
+              <img src="img/Export/Illus_14.png">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <strong>For advertisers</strong><span class="text-muted"> (live): Burn DTC to promote videos on the
+                  platform</span>
+              </div>
+            </div>
+          </div>
+          <div class="row no-gutters wow flipInY" data-wow-delay="3s">
+            <div class="col-md-2">
+              <img src="img/Export/Illus_16.png">
+            </div>
+            <div class="col-md-10">
+              <div class="card-body">
+                <strong>For viewers</strong><span class="text-muted"> (2020): Spend your DTC to access premium
+                  content</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="nav-link js-scroll-trigger next" href="#economiccycle">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- economiccycle -->
+  <section id="economiccycle" class="bg-light">
+    <h2 class="section-heading  text-center"> DTC economic cycle</h2>
+    <div class="row middle container justify-content-md-center">
+      <div class="col-md-auto col-lg-10 mt-5 card mb-3 align-self-center">
+        <div class="row no-gutters mb-3 mt-5">
+          <img src="img/Export/Illus_17.png" class="card-img" alt="...">
+        </div>
+
+        <a class="nav-link js-scroll-trigger next" href="#tokenlaunch">
+          <div class="arrow a"> </div>
+          <div class="arrow b"> </div>
+          <div class="arrow c"> </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="barmodel">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+      </a>
+      <div>TOKEN GENERATION</div>
+      <div class="right-model">
+        <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+        <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Token launch -->
+  <section id="tokenlaunch">
+    <div class="row middle container">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-6 ">
+          <h2 class="section-heading text-uppercase">Token launch: </h2>
+          <h3 class="section-subheading text-muted mb-3"> DTC airdrop </h3>
+          In Q3, 2019, the DTube Chain will start with an initial amount of
+          <div class="text-center">
+            <div class="tokens">100,000,000 DTC tokens</div>
+          </div>
+          <div>
+            that will be distributed to the DTube Community, to the DTube team and to investors via an IEO token sale.
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 mt-5">
+          <img src="img/Export/Illus_25.png">
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#tokensale">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- tokensale -->
+  <section id="tokensale" class="bg-light">
+    <div class="row middle container">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-6 ">
+          <h2 class="section-heading text-uppercase">Token sale: </h2>
+          <h3 class="section-subheading text-muted mb-3"> DTC Initial Exchange Offering (IEO)</h3>
+          <div>
+            DTube will conduct an Initial Exchange Offering (IEO) to fund its future development.
+            DTube has established as the #1 DApp in social medias, collected funds will allow us to promote the concept
+            to mass market adoption: sponsoring creators and influencers,
+            DTube is partnering with a professional cryptocurrency exchange with all the resources to operate a legally
+            compliant token sale on markets.
+          </div>
+          <div class="redsquare text-center">
+            <div class="big text-red">25,000,000 DTC </div>
+            <div>tokens in total will be sold via several rounds.</div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-auto  mt-5 text-center">
+          <img class="mb-4 wow pulse" data-wow-iteration="infinite" src="img/Export/Illus_26.png">
+          <a class="btnbuy disabled big m-5" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+          <img class="mt-4 wow pulse" data-wow-iteration="infinite" src="img/Export/Illus_27.png">
+          <div class="mt-2">Sale starts on 20th September.</div>
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#roadmap">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- roadmap -->
+  <section id="roadmap">
+    <h2 class="section-heading  text-center">Roadmap</h2>
+    <div class="container columns justify-content-md-center">
+      <div>
+        <ul class="timeline col-lg-6 mt-5 row justify-content-md-center">
+          <li class="event" data-date="August, 2017">
+            <p>DTube launch on the Steem blockchain</p>
+          </li>
+          <li class="event" data-date="Q1, 2018">
+            <p>1 upload/minute & 4 Million MUV
+              #1 topic on “Hacker News”
+
+            </p>
+            <p>
+              2 Million Steem seed funding from Steem cofounder, Ned Scott
+            </p>
+          </li>
+          <li class="event" data-date="Q2, 2018">
+            <p>Release of Livestream & Chat features</p>
+          </li>
+          <li class="event" data-date="Q3-Q4, 2018">
+            <p>Research & Development for Avalon Blockchain (low layer technology for the DTube Chain)</p>
+          </li>
+          <li class="event" data-date="Q1, 2019">
+            <p>DTube Chain testnet release on DTube clone</p>
+          </li>
+          <li class="event" data-date="Q2, 2019">
+            <p>Launch live DTube Chain testnet on DTube (End of June)</p>
+          </li>
+          <li class="event" data-date="Q3, 2019">
+            <p>DTC Token Sale: IEO
+              DTC Token Launch: Airdrop
+            </p>
+          </li>
+          <li class="event" data-date="End of Q3-Q4">
+            <p>DTube Coin open trading on markets</p>
+          </li>
+          <li class="event" data-date="Q1-Q2 2020">
+            <p>Release of Premium features</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="ontainer justify-content-md-center">
+      <a class="nav-link js-scroll-trigger next" href="#latestnews">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <div class="barmodel">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="img/kit/Logo_Black.svg" style="width:100px;margin-bottom:4px;" />
+      </a>
+      <div>PRESS & CONTACT</div>
+      <div class="right-model">
+        <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
+        <a class="ml-3 btnbuy disabled nav-link js-scroll-trigger" href="https://signup.d.tube/token-sale">Buy DTC now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- latestnews -->
+  <section id="latestnews" class="bg-light">
+    <h2 class="section-heading  text-center">Our latest news</h2>
+    <div class="container columns justify-content-md-center">
+      <div>
+        <ul class="timeline news mt-5 row justify-content-md-center" id="steemit-widgets-blog">
+        </ul>
+        <div class="text-center">
+          <a href="https://steemit.com/@dtube" class="btn btn-read" target="_blank">More on Steemit.com</a>
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#joincommunity">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- joincommunity -->
+  <section id="joincommunity">
+    <div class="row middle container ">
+      <div class="row justify-content-md-center text-center">
+        <div class="col-12">
+          <h2 class="section-heading text-uppercase">Join the </h2>
+          <h3 class="section-subheading text-muted mb-3"> DTube Community</h3>
+        </div>
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
+          <a href="https://steemit.com/@dtube" target="_blank">
+            <img src="img/Export/picto_Steemit_ON.png">
+            Steemit
+          </a> 
+        </div>
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
+            <a href="https://discord.gg/dtube" target="_blank">
+          <img src="img/Export/picto_discord_ON.png">
+          Discord
+        </a> 
+        </div>
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
+            <a href="https://twitter.com/DTube_official" target="_blank">
+          <img src="img/Export/picto_twitter_ON.png">
+          Twitter
+        </a> 
+        </div>
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
+            <a href=": https://t.me/dtube_official" target="_blank">
+          <img src="img/Export/picto_telegram_ON.png">
+          Telegram
+        </a> 
+        </div>
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
+            <a href="https://reddit.com/r/dtube/" target="_blank">
+          <img src="img/Export/picto_reddit_ON.png">
+          Reddit
+        </a> 
+        </div>
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
+            <a href="https://medium.com/@dtube" target="_blank">
+          <img src="img/Export/picto_medium_ON.png">
+          Medium
+        </a> 
+        </div>
+        <div class="col-4 col-lg-1 col-sm-1 mt-5 text-center">
+            <a href="https://www.linkedin.com/company/dtube" target="_blank">
+          <img src="img/Export/picto_linkedin_ON.png">
+          Linkedin
+        </a> 
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#press">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Press -->
+  <section id="press">
+    <div class="row middle container ">
+      <div class="row justify-content-md-center text-center">
+        <div class="col-12">
+          <h2 class="section-heading text-uppercase">The press talks </h2>
+          <h3 class="section-subheading text-muted mb-3"> about us</h3>
+        </div>
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
+          <img src="img/Export/logo_medium.png">
+        </div>
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
+          <img src="img/Export/logo_wired.png">
+        </div>
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
+          <img src="img/Export/logo_bloomberg.png">
+        </div>
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
+          <img src="img/Export/logo_fossbytes.png">
+        </div>
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
+          <img src="img/Export/logo_adslzone.png">
+        </div>
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
+          <img src="img/Export/logo_korben.png">
+        </div>
+        <div class="col-4 col-lg-2 col-sm-3 mt-5 text-center">
+          <img src="img/Export/logo-omicrono.png">
+        </div>
+      </div>
+      <a class="nav-link js-scroll-trigger next" href="#contact">
+        <div class="arrow a"> </div>
+        <div class="arrow b"> </div>
+        <div class="arrow c"> </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="row middle container ">
+      <div class="row justify-content-md-center text-center">
+        <div class="col-12">
+          <h2 class="section-heading text-uppercase">Contact </h2>
+          <h3 class="section-subheading text-muted mb-3"> us</h3>
+        </div>
+        <div class="container">
+          <form id="contact" action="" method="post">
+            <fieldset>
+              <input placeholder="Your name" type="text" tabindex="1" required>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Email Address" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+              <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+              <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+            </fieldset>
+            <div id='captchaContainer'>
+              <div class="h-captcha" data-sitekey="7816bec3-01e0-4c93-8252-dec58d7b1da9"></div>
+            </div>
+            <fieldset>
+              <button class="btnread-inverted" name="submit" type="submit" id="contact-submit"
+                data-submit="...Sending">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="row mb-5">
+          <div class="col col-lg-4 col-md-12 mt-5 text-center">
+            <img src="img/Export/Illus_29.png">
+            Investors:
+            <div>
+              <a href="#joincommunity">
+                investor@d.tube
+              </a>
+            </div>
+          </div>
+          <div class="col col-lg-4 col-md-12 mt-5 text-center">
+            <img src="img/Export/Illus_30.png">
+            <div>
+              Press:
+              <a href="#joincommunity">
+                press@d.tube
+              </a>
+            </div>
+
+          </div>
+          <div class="col col-lg-4 col-md-12 mt-5 text-center">
+            <img src="img/Export/Illus_31.png">
+            <div>
+              General:
+              <a href="#joincommunity">
+                contact@d.tube
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <!-- <footer>
+    <div class="row middle container">
+        <div class="row text-center">
+            <div class="col-6  mx-auto">
+            </div>
+            <div class="col-6 mt-4 mt-sm-0 mx-auto">
+                <div id="steemit-widgets-ticker"></div>
+            </div>
+          </div>
+  </footer> -->
+  <template id="steemit-widgets-blog-template">
+    <li class="timelineitem">
+      <img src="${image}" width="100px">
+      <a href="${URL}" target="_blank">
+        <div class="timeline-image">
+          <span class="timelinenumber">${DATE}</span>
+          <img class="blogimg rounded-circle img-fluid" src="" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>${TITLE}</h4>
+      </a>
+      </div>
+    </li>
+  </template>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.4.4/dist/vue.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/dtube.min.js"></script>
+  <script src="vendor/skrollr.min.js"></script>
+  <script src="vendor/wow.js"></script>
+  <!-- scripts -->
+  <script src="https://buttons.github.io/buttons.js" async defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/steem/dist/steem.min.js"></script>
+  <script src="https://mktcode.github.io/steemit-widgets/assets/js/steemit-widgets.min.js"></script>
+
+  <script>
+    new WOW().init();
+    var mySkrollr = skrollr.init({
+    forceHeight: false,
+    easings: {
+        easeOutBack: function (p, s) {
+            s = 1.70158;
+            p = p - 1;
+            return (p * p * ((s + 1) * p + s) + 1);
+        }
+    },
+    mobileCheck: function() {
+        //hack - forces mobile version to be off
+        return false;
+    }
+    });
+    steem.api.setOptions({
+      url: 'https://api.steemit.com'
+    });
+    steemitWidgets.blog({
+      user: 'dtube',
+      element: 'steemit-widgets-blog',
+      template: 'steemit-widgets-blog-template',
+      limit: 7,
+      defaultImage: 'https://steemitimages.com/DQmXYX9hqSNcikTK8ARb61BPnTk4CKMhaiqr22iCKD8CKsp/steemit-logo.png',
+      updateInterval: 0,
+      resteemedIndicator: '<i class="fa fa-refresh" title="resteemed"></i>',
+      dateCallback: function (date) {
+        return moment.utc(date).format('DD MMM YYYY');
+      }
+    });
+  </script>
 </body>
+
 </html>
