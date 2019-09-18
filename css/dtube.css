@@ -476,6 +476,17 @@ padding-top: 20px;
   text-decoration:none;
 }
 
+.btnbuy.disabled,
+.btnbuy[disabled]{
+  background: #F01A30;
+  color: white;
+  border:1px transparent solid;
+  font-size: 0.7em!important;
+  font-weight: 500;
+  opacity: 0.7;
+  pointer-events: none;
+}
+
 .btnbuy-inverted{
   border:1px red solid;
   color: white!important;
@@ -1214,7 +1225,7 @@ fieldset {
   animation: spin 10s linear infinite;
 }
 @keyframes spin {
-  0% { content:"trustworthy";color:white; }
+  0% { content:"trustworthy"; color:white; }
   10% { content:"fair"; }
   20% { content:"empowering"; }
   30% { content:"uncensorable"; }
