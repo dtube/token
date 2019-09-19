@@ -639,7 +639,7 @@ section{
 
 
   .timeline {
-    left:30%;
+    left:15%;
   }
 
   .large-screen{
@@ -842,7 +842,9 @@ section{
   }
 
   .timeline {
-    left:15%;
+    left: 0%;
+    max-width: 65%!important;
+    margin-right: 0px!important;
   }
   .timeline.news {
     left:0%;
