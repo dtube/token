@@ -540,6 +540,7 @@ padding-top: 20px;
   color: white;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   height: 45px;
+  display: inline-block;
 }
 
 .btnsecondary:hover{
@@ -561,6 +562,8 @@ padding-top: 20px;
   color: white;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   height: 45px;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .btnvisit:hover{
