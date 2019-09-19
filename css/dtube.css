@@ -808,6 +808,16 @@ section{
 @media screen and (min-width: 200px) and (max-width: 640px) {
 
 
+  .navbar-brand
+  {margin-right: 0px}
+
+  .modeltitle{
+    font-size: 0.7em;
+  }
+
+  .right-model{
+    width: 100%;
+  }
   
 
   .illus8{
@@ -822,6 +832,7 @@ section{
   .nav-link.btnread-inverted {
     padding: 1rem 1rem;
     font-size: 0.6em!important;
+    width: 100%;
   }
   
   .nav-link.btnbuy {
