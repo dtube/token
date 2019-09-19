@@ -479,7 +479,8 @@ padding-top: 20px;
   border:1px transparent solid;
   font-size: 0.7em!important;
   font-weight: 500;
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width:100%;
 }
 
 .btnbuy:hover{
