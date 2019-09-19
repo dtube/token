@@ -16,6 +16,19 @@ a {
   color: white;
 }
 
+.illus6count{
+  transform: translate(0%,0%) skew(50deg) rotate(-19deg);
+  position: absolute;
+  top: 184px;
+  left: 75px;
+  font-size: 32px;
+  font-weight: 900;
+  background: -webkit-linear-gradient(#eee, #a2a2a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 28px;
+  text-shadow: 0px 0px 83px black;
+}
 
 .nav-link:hover{
   color: red!important;
@@ -621,6 +634,9 @@ section{
 
 
 @media screen and (min-width: 992px) {
+
+
+
   .timeline {
     left:30%;
   }
@@ -681,7 +697,33 @@ section{
   }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  
+  .illus6count{
+    transform: translate(0%,0%) skew(50deg) rotate(-19deg);
+    position: absolute;
+    top: 154px;
+    left: 63px;
+    font-size: 23px;
+    letter-spacing: 26px;
+  }
+  
+}
+
 @media screen and (min-width: 641px) and (max-width:  991px) {
+
+
+  .illus6count{
+    transform: translate(0%,0%) skew(50deg) rotate(-19deg);
+    position: absolute;
+    top: 224px;
+    left: 90px;
+    font-size: 38px;
+    letter-spacing: 34px;
+  }
+  
+
   .timeline {
     left:15%;
   }
@@ -726,7 +768,46 @@ section{
 }
 
 
+@media screen and (min-width: 200px) and (max-width: 500px) {
+.illus6count{
+  transform: translate(0%,0%) skew(50deg) rotate(-19deg);
+  position: absolute;
+  top: 169px;
+  left: 69px;
+  font-size: 28px;
+  letter-spacing: 26px;
+}
+
+
+}
+@media screen and (min-width: 501px) and (max-width: 640px) {
+.illus6count{
+  transform: translate(0%,0%) skew(50deg) rotate(-19deg);
+  position: absolute;
+  top: 210px;
+  left: 82px;
+  font-size: 38px;
+  letter-spacing: 32px;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1679px) {
+  .illus6count{
+    transform: translate(0%,0%) skew(50deg) rotate(-19deg);
+    position: absolute;
+    top: 162px;
+    left: 64px;
+    font-size: 25px;
+    letter-spacing: 27px;
+  }
+  }
+
+
+
 @media screen and (min-width: 200px) and (max-width: 640px) {
+
+
+  
 
   .illus8{
     height: 200px;
