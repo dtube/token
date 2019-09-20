@@ -255,7 +255,7 @@
       <div class="modeltitle">BUILT ON TRUST</div>
       <div class="right-model">
         <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
-        <a class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</a>
+                <button class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</button>
       </div>
     </div>
   </div>
@@ -307,7 +307,7 @@
       <div class="modeltitle">COMMUNITY POWERED</div>
       <div class="right-model">
         <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
-        <a class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</a>
+                <button class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</button>
       </div>
     </div>
   </div>
@@ -346,7 +346,7 @@
         <div class="modeltitle">AD-FREE</div>
         <div class="right-model">
           <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
-          <a class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</a>
+                  <button class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</button>
         </div>
       </div>
     </div>
@@ -395,7 +395,7 @@
         <div class="modeltitle">CREATORS & CURATORS</div>
         <div class="right-model">
           <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
-          <a class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</a>
+                  <button class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</button>
         </div>
       </div>
     </div>
@@ -486,7 +486,7 @@
         <div class="modeltitle">OLD VS. NEW</div>
         <div class="right-model">
           <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
-          <a class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</a>
+                  <button class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</button>
         </div>
       </div>
     </div>
@@ -702,7 +702,7 @@
         <div class="modeltitle">UTILITY TOKEN</div>
         <div class="right-model">
           <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
-          <a class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</a>
+                  <button class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</button>
         </div>
       </div>
     </div>
@@ -849,7 +849,7 @@
       <div class="modeltitle">TOKEN GENERATION</div>
       <div class="right-model">
         <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
-        <a class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</a>
+                <button class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</button>
       </div>
     </div>
   </div>
@@ -971,7 +971,7 @@
       <div class="modeltitle">PRESS & CONTACT</div>
       <div class="right-model">
         <a class="btnread-inverted nav-link js-scroll-trigger" href="https://token.d.tube/whitepaper.pdf" target="_blank">Read the whitepaper</a>
-        <a class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</a>
+                <button class="ml-3 btnbuy nav-link js-scroll-trigger countdown" href="https://signup.d.tube/token-sale" disabled>Buy DTC</button>
       </div>
     </div>
   </div>
@@ -1189,13 +1189,18 @@
         var countdown = duration.hours() + ':' + duration.minutes() + ':' + duration.seconds()
         if (duration.days())
           countdown = duration.days() + ':' + countdown
-        
-        console.log(countdown)
+
         $(".countdown").text('Buy DTC in '+countdown)
 
         $(".illus6count").text(new Array(+5 + 1 - (count + '').length).join('0') + count)
         count++
       }
+
+      $(".countdown").each(function(i) {
+        $(".countdown")[i].onclick = function() {
+          window.open('https://signup.d.tube/token-sale')
+        }
+      })
     }, 1000);
   </script>
 
